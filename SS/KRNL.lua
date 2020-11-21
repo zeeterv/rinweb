@@ -1,7 +1,7 @@
 local function callback(text)
     if text == "Shinobi Life 2" then
-        print("Shinobu Life 2 //Okay//")
-        loadstring(game:HttpGet("http://assasine.com/Scripts/Shinobi_Life_2_Autofarm.lua", true))()
+        print("DexV2 //Okay//")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zeeterv/zeeterv.github.io/main/SS/%23DEX%20V2.lua", true))()
     elseif text == "Infinity Yield" then
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end
@@ -19,13 +19,15 @@ game.StarterGui:SetCore("SendNotification", {
     Button1 = "Okay"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
 })
 
+wait(5)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "Game"; -- Required. Has to be a string!
-    Text = "Wanna Run Shinobi Life 2 Script?"; -- Required. Has to be a string!
+    Text = "Wanna Run DexV2 Script?"; -- Required. Has to be a string!
     Icon = ""; -- Optional, defaults to "" (no icon)
     Duration = 10; -- Optional, defaults to 5 seconds
     Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
-    Button1 = "Shinobi Life 2"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+    Button1 = "DexV2"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
     Button2 = "No"
 })
 
