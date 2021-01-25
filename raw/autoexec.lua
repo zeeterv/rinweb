@@ -9,7 +9,7 @@ bindableFunction.OnInvoke = callback
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Injected!"; -- Required. Has to be a string!
-    Text = "Your Roblox Now Has Been Injected by KNRL"; -- Required. Has to be a string!
+    Text = "Your Roblox Now Has Been Injected"; -- Required. Has to be a string!
     Icon = ""; -- Optional, defaults to "" (no icon)
     Duration = 5; -- Optional, defaults to 5 seconds
     Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
@@ -19,7 +19,7 @@ wait(5)
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "IY"; -- Required. Has to be a string!
-    Text = "Wanna Run Infinity Yield Script?"; -- Required. Has to be a string!
+    Text = "Wanna Run Infinity Yield?"; -- Required. Has to be a string!
     Icon = ""; -- Optional, defaults to "" (no icon)
     Duration = 10; -- Optional, defaults to 5 seconds
     Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
